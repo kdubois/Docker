@@ -1,4 +1,4 @@
-FROM consensus/centos:6
+FROM centos:6
 
 RUN yum -y install httpd httpd-devel gcc-c++
 RUN yum -y install mod_ssl libssh2 libssh2-devel make wget
